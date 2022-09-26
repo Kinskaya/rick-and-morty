@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    display: contents;
+}
+
+.modal-btn {
+    position: absolute;
+    background-color: transparent;
+    margin-left: 225px;
+    margin-bottom: 280px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.card-page .back-home-link {
+    text-align: center;
+}
+
+.back-home-link {
+    margin-bottom: 40px;
+}
+
+.card-page a:hover {
+    color: #414191;
+}
+.card-page div {
+    margin: 0 auto;
+}

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component render correctly 1`] = `
+<DocumentFragment>
+  <header>
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class=""
+      href="/about"
+    >
+      About Us
+    </a>
+    <a
+      class=""
+      href="/order"
+    >
+      Order
+    </a>
+  </header>
+  <main
+    class="container"
+  >
+    <div
+      class="wrapper"
+    >
+      <h1>
+        Rick and Morty
+      </h1>
+      <form>
+        <i
+          class="material-icons"
+        >
+          search
+        </i>
+        <input
+          class="search-input"
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+      </form>
+      <div
+        class="card-container"
+      />
+      <div
+        class="modal"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="card"
+          >
+            <img
+              alt="item-image"
+              class="card-image"
+              src=""
+            />
+            <p
+              class="title"
+            >
+              Name: 
+              <span />
+            </p>
+            <p
+              class="title"
+            >
+              Gender: 
+              <span />
+            </p>
+            <p
+              class="title"
+            >
+              Status: 
+              <span />
+            </p>
+            <p
+              class="title"
+            >
+              Species: 
+              <span />
+            </p>
+          </div>
+          <button
+            class="modal-btn"
+          >
+            x
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

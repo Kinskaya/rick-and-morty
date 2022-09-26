@@ -1,0 +1,116 @@
+:root {
+    --color-white: rgba(255,255,255,0.3);
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+}
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+.toggle-switch .switch {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 25px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.2s ease;
+}
+.toggle-switch .switch::before {
+    position: absolute;
+    content: "";
+    left: 2px;
+    top: 2px;
+    width: 21px;
+    height: 21px;
+    background-color: #aaa;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch::before {
+    transform: translateX(25px);
+    background-color: #6699cc;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch {
+    background-color: #414191;
+    padding-left: 4px;
+}
+
+::placeholder,
+select {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+.form-control {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-control label,
+.toggle-desc {
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 1rem;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+input,
+select {
+    margin-left: 10px;
+}
+
+form input[type=submit] {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+    background: transparent;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.errors {
+    color: #c60f38;
+    font-size: 0.8em;
+    margin: -10px 0 10px 0
+}
+
+.errors.name-info {
+    margin-left: 87px;
+}
+
+.errors.date-info,
+.errors.place-info {
+    margin-left: 108px;
+}
+
+.errors.file-info {
+    margin-right: 54px;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <img
+      alt="item-image"
+      class="card-image"
+    />
+    <p
+      class="title"
+    >
+      Name: 
+      <span>
+        MacBook
+      </span>
+    </p>
+    <p
+      class="title"
+    >
+      Gender: 
+      <span />
+    </p>
+  </div>
+</DocumentFragment>
+`;

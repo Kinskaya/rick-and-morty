@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar component render correctly 1`] = `
+<DocumentFragment>
+  <form>
+    <i
+      class="material-icons"
+    >
+      search
+    </i>
+    <input
+      class="search-input"
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </form>
+</DocumentFragment>
+`;

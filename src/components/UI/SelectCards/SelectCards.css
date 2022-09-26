@@ -1,0 +1,11 @@
+.select-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 81%;
+}
+
+.select-wrap select {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid teal;
+}

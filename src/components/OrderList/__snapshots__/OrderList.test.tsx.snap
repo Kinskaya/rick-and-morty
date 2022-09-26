@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList component render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="card-container"
+  >
+    <div
+      class="order"
+    >
+      <h3>
+        Your order
+      </h3>
+      <p>
+        Your Name:
+        <span>
+          Tom
+        </span>
+      </p>
+      <p>
+        Delivery Date:
+        <span>
+          2022-04-08
+        </span>
+      </p>
+      <p>
+        Delivery Place:
+        <span>
+          Minsk
+        </span>
+      </p>
+      <p>
+        Contact before delivery:
+        <span>
+          Yes
+        </span>
+      </p>
+      <p>
+        I want to receive notifications about promo:
+        <span>
+          Yes
+        </span>
+      </p>
+      <p>
+        File:
+        <span />
+      </p>
+      <div
+        class="order-image"
+      >
+        <img />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

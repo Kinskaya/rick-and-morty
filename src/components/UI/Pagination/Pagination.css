@@ -1,0 +1,18 @@
+.pagination {
+    margin-left: 36px;
+}
+
+.page {
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    border: 2px solid #417e91;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.page-current {
+    border: 2px solid #FC466B;
+    font-weight: bold;
+}

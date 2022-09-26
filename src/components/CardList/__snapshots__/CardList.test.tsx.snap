@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList component render correctly 1`] = `
+<DocumentFragment>
+  <h2
+    class="loading"
+  >
+    Loading...
+  </h2>
+</DocumentFragment>
+`;

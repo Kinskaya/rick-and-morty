@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component render correctly 1`] = `
+<DocumentFragment>
+  <header>
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class=""
+      href="/about"
+    >
+      About Us
+    </a>
+    <a
+      class=""
+      href="/order"
+    >
+      Order
+    </a>
+  </header>
+  <main
+    class="container"
+  />
+</DocumentFragment>
+`;

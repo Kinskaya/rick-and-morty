@@ -1,0 +1,25 @@
+.search-input {
+    width: 40%;
+    padding: 5px 35px;
+    margin: 5px 0;
+    border: 1px solid teal;
+    border-radius: 30px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: teal;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form i {
+    position: absolute;
+    margin-right: 385px;
+    color: teal;
+}

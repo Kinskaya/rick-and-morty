@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderForm component render correctly 1`] = `
+<DocumentFragment>
+  <form
+    class="order-form"
+  >
+    <h3>
+      Order form
+    </h3>
+    <div
+      class="form-control"
+    >
+      <label>
+        Add name
+      </label>
+      <input
+        name="nameInput"
+        placeholder="Your name"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <label>
+        Delivery date
+      </label>
+      <input
+        min="2022-04-19"
+        name="dateInput"
+        type="date"
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <label>
+        Delivery place
+      </label>
+      <select
+        name="placeSelect"
+      >
+        <option
+          value=""
+        >
+          Select place
+        </option>
+        <option
+          value="Minsk"
+        >
+          Minsk
+        </option>
+        <option
+          value="Gomel"
+        >
+          Gomel
+        </option>
+        <option
+          value="Mogilev"
+        >
+          Mogilev
+        </option>
+        <option
+          value="Brest"
+        >
+          Brest
+        </option>
+        <option
+          value="Grodno"
+        >
+          Grodno
+        </option>
+      </select>
+    </div>
+    <div
+      class="form-control"
+    >
+      <label>
+        Contact before delivery
+      </label>
+      <input
+        name="reminder"
+        type="checkbox"
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <span
+        class="toggle-desc"
+      >
+        I want to receive notifications about promo
+      </span>
+      <label
+        class="toggle-switch"
+      >
+        <input
+          name="isToggled"
+          type="checkbox"
+        />
+        <span
+          class="switch"
+        >
+          Yes
+        </span>
+      </label>
+    </div>
+    <div
+      class="form-control"
+    >
+      <label>
+        Upload file
+        <input
+          accept=".jpg, .jpeg, .png"
+          name="selectedFile"
+          type="file"
+        />
+      </label>
+    </div>
+    <input
+      disabled=""
+      type="submit"
+      value="Submit"
+    />
+  </form>
+  <div
+    class="card-container"
+  />
+</DocumentFragment>
+`;

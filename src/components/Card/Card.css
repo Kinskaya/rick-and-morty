@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.card {
+    width: 222px;
+    height: 270px;
+    background: radial-gradient(109.56% 109.56% at 0% -2.94%, rgba(255, 255, 255, 0.5) 0%, rgb(217, 208, 248) 100%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-top: 18px;
+    margin: 0 0 36px 41px;
+}
+
+.card p {
+    margin: 0 0 5px 0;
+}
+.card-image {
+    height: 107px;
+    object-fit: contain;
+}
+
+.card-add-info {
+    display: none;
+}
+
+.title {
+    color: #414191;
+}
+
+.title span {
+    color: #FC466B;
+}
